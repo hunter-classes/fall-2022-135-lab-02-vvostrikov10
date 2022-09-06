@@ -10,7 +10,7 @@ an index that is out of bounds
 
 #include <iostream>
 
-void print_array(int* arr, int size){
+void print_array(int arr[], int size){
     std::cout << std::endl;
     for (int i = 0; i < size; i++){
         std::cout << arr[i];
