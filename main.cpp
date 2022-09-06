@@ -21,6 +21,5 @@ int main(){
     print_interval(100, 115);
     std::cout << "Interval [5,-10) shouldn't print anything:" << std::endl;
     print_interval(5, -10);
-
-
+    return 0;
 }
